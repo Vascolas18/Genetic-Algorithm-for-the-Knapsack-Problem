@@ -2,7 +2,7 @@
 This is an assignment that I had to solve in Java in my master's course where it focuses on knowledge of Parallel and Concurrent Programming
 
 Evaluated Skills
-This assignment is designed to evaluate your understanding of the threading model, the thread lifecycle and the synchronization primitives available in Java, as well as your programming skills to apply those concepts in a small-scale project. Additionally, you communication skill is also evaluated in the report, together with your data analysis ability.
+This assignment is designed to evaluate my understanding of the threading model, the thread lifecycle and the synchronization primitives available in Java, as well as mine programming skills to apply those concepts in a small-scale project. Additionally, mine communication skill is also evaluated in the report, together with your data analysis ability.
 
 Objectives
 The Knasack problem is a common problem in computer science and, although it is usually presented as filling a backpack with the most valuable items within a given weight allowance, it occurs frequently in the real world, from manufacturing to financial investiments.
@@ -18,6 +18,8 @@ Finally, with a given probability, we change a random position of the individual
 We repeat this process throughout a given number of generations, hoping the final result is better.
 
 Task
-Your task is to implement different alternatives to parallelize this small program (see the code attached). The goal is to improve performance, while retaining correctness. You should explore the alternatives mentioned in class.
+My task is to implement different alternatives to parallelize this small program (see the code attached). The goal is to improve performance, while retaining correctness. You should explore the alternatives mentioned in class.
 
 Note that there is a single print per generation that should be kept in the parallel version.
+
+Also note that to measure the performance, I try different number of cores. Additionally, I run my program several times (30 is usually a good number), and compare distributions (I create a boxplot, and a statistical test because is more powerful). To measure time in Java, I use System.nanoTime().
